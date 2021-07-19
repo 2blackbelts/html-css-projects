@@ -1,0 +1,37 @@
+body {
+    /* background-color: #ff0000; */
+    /* font-size: 1000%; */
+    /* color: #ffffff; */
+}
+
+#wrapper {
+    /* background-color: white; */
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 3.5em;
+    text-align: center;
+}
+
+p {
+    color: orange;
+}
+
+.article {
+    background-color: #999;
+}
+
+.article h2 {
+    color: white;
+}
+
+.article p {
+    /* color: #000; */
+}
+
+#special {
+    color: red;
+    text-align: justify;
+}
