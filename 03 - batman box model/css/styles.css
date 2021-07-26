@@ -1,0 +1,31 @@
+body {
+    background-color: #000;
+}
+
+header {
+    margin: 0 auto;
+}
+
+h1 {
+    /* margin: 0; */
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* Using div to practice box model */
+div {
+    /* add a border  */
+    border: 3px solid green;
+    /* add padding T-B, L-R */
+    padding: 10px 20px;
+    /* add margins  T, R, B, L*/
+    margin: 50px 50px 50px 50px;
+    
+    /* margin-top: 100px; */
+    background-color: #fff;
+}
+
+p {
+    text-align: center;
+}
