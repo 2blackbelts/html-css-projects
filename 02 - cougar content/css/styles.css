@@ -1,0 +1,29 @@
+body {
+    background-color: #E9C46A;
+}
+
+#wrapper {
+    padding: 10px;
+    max-width: 760px;
+    margin: 0 auto;
+    /* 50% transparent white background */
+    background-color: rgba(255,255,255,0.5);
+}
+
+h1 {
+    text-align: center;
+    color: #2A9D8F;
+}
+
+h2 {
+    color: #E76F51;
+}
+
+/* p span  */
+.highlight {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+}
