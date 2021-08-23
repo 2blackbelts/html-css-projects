@@ -1,0 +1,61 @@
+body {
+    background: url(../img/bg.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-color:#555;
+}
+
+#wrapper {
+    background-color: rgba(118, 212, 226, 0.7);
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+h1, footer {
+    text-align: center;
+    /* color: #fff; */
+}
+
+header {
+    /* background-color: burlywood; */
+}
+
+main {
+    /* background-color: chartreuse; */
+}
+
+footer {
+    /* background-color: crimson; */
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.article-left {
+    background-color: crimson;
+    flex: 50%;
+}
+
+.article-right {
+    background-color: greenyellow;
+    flex: 50%;
+}
+
+.flex-container p, .flex-container h2 {
+    padding: 0 5px;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        /* background-color: red; */
+    }
+
+    .article-left, .article-right {
+        flex: 100%;
+    }
+}
